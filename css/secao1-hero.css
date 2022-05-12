@@ -1,0 +1,22 @@
+.inicio-bg {
+  background-image: url("../img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 580px;
+}
+
+.inicio img {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.inicio h1{
+  max-width: 517px;
+  margin-bottom: 12px;
+}
+
+.inicio > p {
+  max-width: 517px;
+  margin-bottom: 24px;
+}

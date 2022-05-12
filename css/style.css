@@ -1,0 +1,9 @@
+@import 'tipografia.css';
+@import 'cores.css';
+@import 'global.css';
+@import 'componentes.css';
+
+@import 'secao1-hero.css';
+@import 'secao2-who.css';
+@import 'secao3-expert.css';
+@import 'secao4-feedback.css';
