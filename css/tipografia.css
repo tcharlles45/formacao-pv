@@ -1,9 +1,17 @@
 .font-h1 {
-  font: 700 2rem/1.125 'Sora', sans-serif;
+  font: 700 2rem/1.125 "Sora", sans-serif;
   letter-spacing: 0.015em;
 }
 
 .font-p {
-  font: 400 1.125rem/1.250 'Sora', sans-serif;
+  font: 400 1.125rem/1.25 "Sora", sans-serif;
 }
 
+.font-p1 {
+  font: 400 1rem/1.25 "Sora", sans-serif;
+
+}
+
+.font-p2 {
+  font: 700 1.5rem/1.5 "Sora", sans-serif;
+}
