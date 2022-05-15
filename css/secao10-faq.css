@@ -1,0 +1,88 @@
+.faq-bg {
+  background-image: url('../img/bg-textura.jpg');
+  height: 670px;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+.faq h1 {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.faq dl > div {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.faq dl > div:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.faq dl > div:nth-child(even) {
+  background-color: #ededed;
+}
+
+.faq button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.faq button::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/icons/faq-seta.svg");
+  height: 17px;
+  width: 16px;
+}
+
+.faq button::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/icons/seta-abrir-black.svg");
+  height: 6px;
+  width: 14px;
+}
+
+.faq button:hover:after,
+.faq button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+.faq dd {
+  display: none;
+  margin-left: 14px;
+}
+
+.faq dd.ativa {
+  display: block;
+}
+
+.faq dd {
+  padding-left: 24px;
+  padding-top: 12px;
+  max-width: 80ch;
+}
+
+.footer {
+    background-color: #ededed;
+  padding: 10px;
+  text-align: center;
+}

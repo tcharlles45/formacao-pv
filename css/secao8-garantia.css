@@ -1,0 +1,9 @@
+.garantia {
+  display: flex;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.garantia > h1 {
+  font: 700 4rem/1 "Sora", sans-serif;
+}
