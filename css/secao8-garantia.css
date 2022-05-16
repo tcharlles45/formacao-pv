@@ -4,8 +4,17 @@
   gap: 60px;
 }
 
+.garantia div {
+  display: flex;
+  gap: 20px;
+}
+
 .garantia div h1 {
   font: 700 4rem/1 "Sora", sans-serif;
+}
+
+.garantia p {
+  margin-left: 60px;
 }
 
 @media (max-width: 800px) {
@@ -19,4 +28,24 @@
     display: flex;
     gap: 40px;
   }
+  .garantia p {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 431px) {
+  .garantia {
+    margin-top: 20px;
+  }
+  .garantia div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .garantia div h1 {
+    font-size: 3rem;
+  }
+  .garantia p {
+    font-size: 1rem;
+  }
+
 }

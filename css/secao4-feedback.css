@@ -46,3 +46,10 @@
     margin-top: 200px;
   }
 }
+
+
+@media (max-width: 431px) {
+  .feedback > h1 {
+    font-size: 1.75rem;
+  }
+}

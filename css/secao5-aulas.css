@@ -4,12 +4,12 @@
   background-size: cover;
   background-position: top;
   height: 718px; */
-  margin-top: 460px;
+  margin-top: 360px;
 }
 
 .aulas > h1 {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -91,4 +91,42 @@
 .aulas-item li {
   margin-bottom: 4px;
   font: 400 1rem/1.25 "Sora", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .aulas-bg {
+    margin-top: 460px;
+  }
+}
+
+@media (max-width: 431px) {
+  .aulas-bg {
+    margin-top: 340px;
+  }
+  .aulas > h1 {
+    font-size: 1.75rem;
+    padding-bottom: 20px;
+  }
+
+  .aulas dl > div {
+    padding: 16px;
+  }
+  .aulas-item button {
+    font-size: 1rem;
+  }
+
+  .aulas-item dt span {
+    font-size: 1rem;
+  }
+
+  .aulas-item li {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .aulas-item:nth-child(even) {
+    margin-left: 0px;
+  }
+
 }

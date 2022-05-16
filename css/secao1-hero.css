@@ -38,3 +38,16 @@
 
 }
 
+@media (max-width: 431px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-431.jpg");
+    height: 900px;
+  }
+  .inicio h1 {
+    font-size: 1.75rem;
+  }
+  .inicio p {
+    font-size: 1rem;
+  }
+
+}

@@ -1,5 +1,5 @@
 .faq-bg {
-  background-image: url('../img/bg-textura.jpg');
+  background-image: url("../img/bg-textura.jpg");
   height: 670px;
   background-position: top;
   background-repeat: repeat;
@@ -10,7 +10,7 @@
 .faq h1 {
   text-align: center;
   padding-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .faq-item {
@@ -82,14 +82,48 @@
 }
 
 .footer {
-    background-color: #ededed;
+  background-color: #ededed;
   padding: 10px;
   text-align: center;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .faq h1 {
     margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
   }
+}
+
+@media (max-width: 431px) {
+  .faq-bg {
+    height: 880px;
+  }
+  .faq dl > div {
+    padding: 16px;
+  }
+  .faq-item button {
+    font-size: 1rem;
+  }
+
+  .faq-item dt span {
+    font-size: 1rem;
+  }
+
+  .faq-item dd {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .faq-bg {
+    height: 960px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .faq-bg {
+    height: 1000px;
+  }
+
 }

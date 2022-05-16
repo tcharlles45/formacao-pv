@@ -56,12 +56,16 @@
   width: 53px;
   position: absolute;
   top: -4px;
-  right: 20px;
+  right: 10px;
 }
 
 .oferta img {
   margin-top: 24px;
   margin-left: 32px;
+}
+
+.oferta a {
+  margin-left: 0;
 }
 
 .oferta-antiga > p {
@@ -107,11 +111,11 @@
   }
 
   .oferta > h1 {
-    padding-top: 400px;
+    padding-top: 420px;
   }
 
   .oferta-box {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .oferta-nova::before,
@@ -119,4 +123,33 @@
   .oferta-box::after {
     display: none;
   }
+}
+
+@media (max-width: 431px) {
+  .oferta h1 {
+    font-size: 1.75rem;
+  }
+  .oferta-box {
+    padding: 30px 40px;
+  }
+  .oferta-nova span:first-child {
+    font-size: 1.5rem;
+  }
+  .oferta-nova span:last-child {
+    font-size: 2.5rem;
+  }
+  .oferta img {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .oferta-box {
+    padding: 20px 30px;
+  }
+  .oferta a {
+    padding: 10px 40px;
+  }
+
 }
