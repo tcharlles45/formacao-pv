@@ -11,7 +11,7 @@
   padding-bottom: 30px;
 }
 
-.inicio h1{
+.inicio h1 {
   max-width: 517px;
   margin-bottom: 12px;
 }
@@ -20,3 +20,21 @@
   max-width: 517px;
   margin-bottom: 24px;
 }
+
+@media (max-width: 1280px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-1280.jpg");
+  }
+}
+
+@media (max-width: 800px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-800.jpg");
+    height: 800px;
+  }
+  .inicio img {
+    padding-top: 330px;
+  }
+
+}
+

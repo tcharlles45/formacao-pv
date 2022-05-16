@@ -1,5 +1,6 @@
 .expert-bio {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 100px;
   gap: 80px;
 }
@@ -10,4 +11,14 @@
 
 .expert-texto h2 {
   margin: 50px 0 30px 0;
+}
+
+@media (max-width: 800px) {
+  .expert-bio {
+    margin-top: 60px;
+    gap: 10px;
+  }
+  .expert-texto h2 {
+    margin: 30px 0 20px 0;
+  }
 }

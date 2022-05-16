@@ -16,3 +16,17 @@
   max-width: 560px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+  .expert-depoimento {
+    background-image: url("../img/expert-clean-800.jpg");
+    background-position: top;
+    height: 800px;
+  }
+
+  .texto-depoimento h1 {
+    padding-top: 340px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}

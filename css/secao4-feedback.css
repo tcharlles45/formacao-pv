@@ -30,7 +30,7 @@
 }
 
 .active {
-  background-color: #02253A;
+  background-color: #02253a;
 }
 
 .swiffy-slider {
@@ -38,5 +38,11 @@
 }
 
 .slider-nav {
-  --swiffy-slider-nav-light: #02253A;
+  --swiffy-slider-nav-light: #02253a;
+}
+
+@media (max-width: 800px) {
+  .feedback-bg {
+    margin-top: 200px;
+  }
 }

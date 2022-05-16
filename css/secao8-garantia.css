@@ -4,6 +4,19 @@
   gap: 60px;
 }
 
-.garantia > h1 {
+.garantia div h1 {
   font: 700 4rem/1 "Sora", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .garantia {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .garantia div {
+    display: flex;
+    gap: 40px;
+  }
 }
