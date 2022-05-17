@@ -4,20 +4,69 @@
   padding: 0 20px;
 }
 
+
 .btn {
-  background: linear-gradient(180deg, #59b8f2 0%, #41a2de 100%);
+  background-image: linear-gradient(45deg, #41a2de, #fd01f3, #41a2de, #fd01f3);
+  color: #ededed;
   font: 700 1.5rem/1.5 "Sora", sans-serif;
-  padding: 10px 40px;
+  background-color: transparent;
+  padding: 10px 50px;
   border-radius: 4px;
-  max-width: 500px;
-  display: inline-block;
+  max-width: 400px;
+  display: block;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+.btn2 {
+  background-image: linear-gradient(45deg, #41a2de, #fd01f3, #41a2de, #fd01f3);
+  color: #ededed;
+  font: 700 1.5rem/1.5 "Sora", sans-serif;
+  background-color: transparent;
+  padding: 10px 100px;
+  margin-top: 8px;
+  border-radius: 4px;
+  max-width: 500px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+@keyframes textura {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
 
 @media (max-width: 1370px) {
   .container {
     padding: 0 40px;
+  }
+}
+
+@media (max-width: 431px) {
+  .btn {
+    padding: 10px 40px;
+    font-size: 1.275rem;
+  }
+  .btn2 {
+    padding: 10px 40px;
+    font-size: 1.275rem;
+    width: 100%;
   }
 }
