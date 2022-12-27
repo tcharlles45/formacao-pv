@@ -21,11 +21,11 @@
   margin-bottom: 24px;
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .inicio-bg {
     background-image: url("../img/bg-1-1280.jpg");
   }
-}
+} */
 
 @media (max-width: 800px) {
   .inicio-bg {
