@@ -8,12 +8,12 @@
 .btn {
   background-image: linear-gradient(45deg, #41a2de, #fd01f3, #41a2de, #fd01f3);
   color: #ededed;
-  font: 700 1.5rem/1.5 "Sora", sans-serif;
+  font: 700 1.25rem/1.5 "Sora", sans-serif;
   background-color: transparent;
-  padding: 10px 50px;
+  padding: 10px 30px;
   border-radius: 4px;
-  max-width: 400px;
-  display: block;
+  max-width: 340px;
+  display: inline-block;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
@@ -60,13 +60,22 @@
 }
 
 @media (max-width: 431px) {
-  .btn {
-    padding: 10px 40px;
-    font-size: 1.275rem;
-  }
   .btn2 {
     padding: 10px 40px;
     font-size: 1.275rem;
     width: 100%;
   }
+  .btn {
+    padding: 10px 20px;
+  }
 }
+
+@media (max-width: 320px) {
+  .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+}
+
+

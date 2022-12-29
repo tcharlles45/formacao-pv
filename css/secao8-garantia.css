@@ -1,12 +1,13 @@
 .garantia {
-  display: flex;
-  margin-top: 60px;
-  gap: 60px;
+  padding: 40px 20px;
 }
 
 .garantia div {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .garantia div h1 {
@@ -43,6 +44,7 @@
   }
   .garantia div h1 {
     font-size: 3rem;
+    text-align: center;
   }
   .garantia p {
     font-size: 1rem;

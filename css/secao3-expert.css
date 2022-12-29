@@ -38,7 +38,7 @@
   }
   .texto-depoimento h1 {
     padding-top: 320px;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   .texto-depoimento p {
     font-size: 1rem;
@@ -56,6 +56,15 @@
 
 @media (max-width: 360px) {
   .texto-depoimento h1 {
-    padding-top: 280px;
+    padding-top: 260px;
+  }
+}
+
+@media (max-width: 320px) {
+  .texto-depoimento h1 {
+    padding-top: 240px;
+  }
+  .expert-depoimento {
+    padding-bottom: 60px;
   }
 }

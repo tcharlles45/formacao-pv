@@ -12,18 +12,14 @@
   max-width: 500px;
 }
 
-
-
-
 .oferta-box {
   background: linear-gradient(180deg, #0f5580 0%, #063653 100%);
   border-radius: 6px;
   max-width: 500px;
   padding: 50px 60px;
-  margin-top: 60px;
+  margin-top: 40px;
   position: relative;
 }
-
 
 .oferta-box::before {
   content: "";
@@ -60,7 +56,6 @@
   position: relative;
 }
 
-
 .oferta-nova span:last-child {
   font: 700 4rem/1 "Sora", sans-serif;
 }
@@ -78,7 +73,7 @@
   }
 
   .oferta > h1 {
-    padding-top: 420px;
+    padding-top: 400px;
   }
 
   .oferta-box {
@@ -93,8 +88,13 @@
 }
 
 @media (max-width: 431px) {
+  .oferta-bg {
+    background-image: url("../img/bg-oferta-431.jpg");
+    height: 900px;
+  }
   .oferta h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
+    padding-top: 370px;
   }
   .oferta-box {
     padding: 30px 40px;
@@ -122,4 +122,12 @@
     padding: 10px 30px;
     font-size: 1.125rem;
   }
+}
+
+@media (max-width: 320px) {
+  .oferta-nova {
+    flex-wrap: wrap;
+  }
+
+
 }

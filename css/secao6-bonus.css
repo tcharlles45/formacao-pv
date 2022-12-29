@@ -1,5 +1,5 @@
 .bonus {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .bonus h1 {
@@ -18,7 +18,7 @@
   max-width: 360px;
   border-radius: 0px 0px 4px 4px;
   border-top: 8px solid;
-  border-image: linear-gradient(268deg, #59B8F2 0%, #2D8AC2 100%) 1;
+  border-image: linear-gradient(268deg, #59b8f2 0%, #2d8ac2 100%) 1;
 }
 
 .bonus-item img {
@@ -38,14 +38,13 @@
   margin-top: 35px;
 }
 
-
 @media (max-width: 431px) {
   .bonus ul {
     flex-wrap: wrap;
     gap: 20px;
   }
   .bonus h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   .bonus-item {
     padding: 20px;
@@ -53,5 +52,4 @@
   .bonus-item p {
     font-size: 1rem;
   }
-
 }

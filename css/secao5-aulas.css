@@ -104,12 +104,15 @@
     margin-top: 340px;
   }
   .aulas > h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     padding-bottom: 20px;
   }
 
   .aulas dl > div {
     padding: 16px;
+  }
+  .aulas-item:nth-child(even) {
+    margin-left: 0px;
   }
   .aulas-item button {
     font-size: 1rem;
@@ -128,5 +131,4 @@
   .aulas-item:nth-child(even) {
     margin-left: 0px;
   }
-
 }

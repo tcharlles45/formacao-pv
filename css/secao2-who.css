@@ -27,12 +27,17 @@
   .alvo-item {
     padding: 20px 40px;
   }
-
 }
 
 @media (max-width: 431px) {
   .alvo-lista {
     grid-template-columns: 1fr;
   }
-
+  .alvo h1 {
+    margin-top: 40px;
+    font-size: 1.6rem;
+  }
+  .alvo-item {
+    padding: 20px;
+  }
 }

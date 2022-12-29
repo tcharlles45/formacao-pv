@@ -1,8 +1,8 @@
 .expert-bio {
   display: grid;
   grid-template-columns: auto 1fr;
-  margin-top: 100px;
-  gap: 60px;
+  margin-top: 40px;
+  gap: 60px;  
 }
 
 /* .expert-bio img {
@@ -33,7 +33,7 @@
     grid-template-columns: 1fr;
   }
   .expert-texto h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   .expert-texto p {
     font-size: 1rem;

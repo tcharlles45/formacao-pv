@@ -41,10 +41,13 @@
 @media (max-width: 431px) {
   .inicio-bg {
     background-image: url("../img/bg-1-431.jpg");
-    height: 900px;
+    height: 850px;
+  }
+  .inicio img {
+    padding-top: 300px;
   }
   .inicio h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   .inicio p {
     font-size: 1rem;
