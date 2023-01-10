@@ -6,8 +6,12 @@
   height: 600px;
 }
 
-.texto-depoimento h1 {
+.texto-depoimento h2 {
   margin-top: 60px;
+  margin-bottom: 8px;
+  color: #9c9c9c;
+}
+.texto-depoimento h1 {
   margin-bottom: 40px;
   max-width: 600px;
 }

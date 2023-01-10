@@ -3,6 +3,11 @@
   letter-spacing: 0.015em;
 }
 
+.font-h2 {
+  font: 700 1rem/1.125 "Sora", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
 .font-p {
   font: 400 1.125rem/1.25 "Sora", sans-serif;

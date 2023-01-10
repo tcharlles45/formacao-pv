@@ -1,6 +1,11 @@
-.alvo h1 {
-  text-align: center;
+.alvo h2 {
   margin-top: 60px;
+  margin-bottom: 8px;
+  color: #9c9c9c;
+}
+
+.alvo h1 {
+  text-align: left;
 }
 
 .alvo-lista {
