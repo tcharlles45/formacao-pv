@@ -1,5 +1,5 @@
 .expert-depoimento {
-  background-image: url("../img/expert-clean.jpg");
+  background-image: url("./img/expert-clean.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -7,12 +7,12 @@
 }
 
 .texto-depoimento h2 {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 8px;
   color: #9c9c9c;
 }
 .texto-depoimento h1 {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   max-width: 600px;
 }
 
@@ -23,52 +23,63 @@
 
 @media (max-width: 800px) {
   .expert-depoimento {
-    background-image: url("../img/expert-clean-800.jpg");
-    background-position: top;
-    height: 800px;
+    background-image: url("./img/expert-clean-800.jpg");
+    background-position: left;
+    height: 700px;
   }
 
   .texto-depoimento h1 {
-    padding-top: 360px;
+    padding-top: 200px;
     margin-top: 80px;
     margin-bottom: 20px;
   }
 }
 
-@media (max-width: 431px) {
+@media (max-width: 450px) {
   .expert-depoimento {
-    background-image: url("../img/expert-clean-431.jpg");
-    height: 900px;
+    background-image: url("./img/expert-clean-431.jpg");
+    height: 830px;
+    background-position: top;
+  }
+  .texto-depoimento h2 {
+    padding-top: 300px;
   }
   .texto-depoimento h1 {
-    padding-top: 320px;
-    font-size: 1.6rem;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.75rem;
   }
   .texto-depoimento p {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 393px) {
   .expert-depoimento {
-    height: 1000px;
+    background-image: url("./img/expert-clean-431.jpg");
+    height: 850px;
+    background-position: top;
   }
-  .texto-depoimento h1 {
-    padding-top: 300px;
+}
+@media(max-width: 375px) {
+  .expert-depoimento {
+    height: 870px;
+  }
+  .texto-depoimento h2 {
+    padding-top: 280px;
   }
 }
 
-@media (max-width: 360px) {
-  .texto-depoimento h1 {
+@media(max-width: 360px) {
+  .expert-depoimento {
+    height: 930px;
+  }
+}
+@media(max-width: 325px) {
+  .expert-depoimento {
+    height: 960px;
+  }
+  .texto-depoimento h2 {
     padding-top: 260px;
-  }
-}
-
-@media (max-width: 320px) {
-  .texto-depoimento h1 {
-    padding-top: 240px;
-  }
-  .expert-depoimento {
-    padding-bottom: 60px;
   }
 }

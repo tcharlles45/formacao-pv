@@ -1,5 +1,5 @@
 .inicio-bg {
-  background-image: url("../img/bg-1.jpg");
+  background-image: url("./img/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -23,34 +23,37 @@
 
 /* @media (max-width: 1280px) {
   .inicio-bg {
-    background-image: url("../img/bg-1-1280.jpg");
+    background-image: url("./img/bg-1-1280.jpg");
   }
 } */
 
 @media (max-width: 800px) {
   .inicio-bg {
-    background-image: url("../img/bg-1-800.jpg");
+    background-image: url("./img/bg-1-800.jpg");
     height: 800px;
   }
   .inicio img {
     padding-top: 330px;
   }
-
 }
 
-@media (max-width: 431px) {
+@media (max-width: 450px) {
   .inicio-bg {
-    background-image: url("../img/bg-1-431.jpg");
-    height: 850px;
+    background-image: url("./img/bg-1-431.jpg");
+    height: 770px;
   }
   .inicio img {
     padding-top: 300px;
   }
   .inicio h1 {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
   }
   .inicio p {
     font-size: 1rem;
   }
-
+}
+@media (max-width: 320px) {
+  .inicio-bg {
+    height: 800px;
+  }
 }

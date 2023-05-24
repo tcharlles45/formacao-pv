@@ -1,5 +1,5 @@
 .faq-bg {
-  background-image: url("../img/bg-textura.jpg");
+  background-image: url("./img/bg-textura.jpg");
   height: 670px;
   background-position: top;
   background-repeat: repeat;
@@ -47,7 +47,7 @@
 .faq button::before {
   content: "";
   display: inline-block;
-  background-image: url("../img/icons/faq-seta.svg");
+  background-image: url("./img/icons/faq-seta.svg");
   height: 17px;
   width: 16px;
 }
@@ -55,7 +55,7 @@
 .faq button::after {
   content: "";
   display: inline-block;
-  background-image: url("../img/icons/seta-abrir-black.svg");
+  background-image: url("./img/icons/seta-abrir-black.svg");
   height: 6px;
   width: 14px;
 }
@@ -118,12 +118,10 @@
   .faq-bg {
     height: 960px;
   }
-
 }
 
 @media (max-width: 360px) {
   .faq-bg {
     height: 1000px;
   }
-
 }

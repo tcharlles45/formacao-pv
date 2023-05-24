@@ -34,9 +34,11 @@
   }
 }
 
-@media (max-width: 431px) {
+@media (max-width: 450px) {
   .garantia {
-    margin-top: 20px;
+    margin: 10px 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .garantia div {
     flex-wrap: wrap;
@@ -49,5 +51,4 @@
   .garantia p {
     font-size: 1rem;
   }
-
 }

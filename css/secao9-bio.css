@@ -2,26 +2,27 @@
   display: grid;
   grid-template-columns: auto 1fr;
   margin-top: 40px;
-  gap: 60px;  
+  gap: 60px;
 }
-
-/* .expert-bio img {
-  object-fit: cover;
-} */
 
 .expert-texto {
   margin-top: 10px;
 }
 
 .expert-texto h2 {
-  margin: 40px 0 30px 0;
+  margin: 40px 0 24px 0;
+}
+
+.expert-texto p {
+  margin-bottom: 12px;
+  max-width: 640px;
 }
 
 @media (max-width: 800px) {
   .expert-bio {
     margin-top: 60px;
     gap: 10px;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr;
   }
   .expert-texto h2 {
     margin: 30px 0 20px 0;
@@ -29,9 +30,6 @@
 }
 
 @media (max-width: 431px) {
-  .expert-bio {
-    grid-template-columns: 1fr;
-  }
   .expert-texto h1 {
     font-size: 1.6rem;
   }

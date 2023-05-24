@@ -1,5 +1,5 @@
 .oferta-bg {
-  background-image: url("../img/expert-oferta.jpg");
+  background-image: url("./img/expert-oferta.jpg");
   background-position: top;
   height: 650px;
   background-repeat: no-repeat;
@@ -17,13 +17,13 @@
   border-radius: 6px;
   max-width: 500px;
   padding: 50px 60px;
-  margin-top: 40px;
+  margin-top: 24px;
   position: relative;
 }
 
 .oferta-box::before {
   content: "";
-  background-image: url("../img/icons/bookmark-icon.svg");
+  background-image: url("./img/icons/bookmark-icon.svg");
   height: 53px;
   width: 53px;
   position: absolute;
@@ -68,7 +68,7 @@
 
 @media (max-width: 800px) {
   .oferta-bg {
-    background-image: url("../img/expert-oferta-800.jpg");
+    background-image: url("./img/expert-oferta-800.jpg");
     height: 1000px;
   }
 
@@ -89,7 +89,7 @@
 
 @media (max-width: 431px) {
   .oferta-bg {
-    background-image: url("../img/bg-oferta-431.jpg");
+    background-image: url("./img/bg-oferta-431.jpg");
     height: 900px;
   }
   .oferta h1 {
@@ -110,6 +110,12 @@
     margin-left: 0;
   }
 }
+@media (max-width: 393px) {
+  .btn2 {
+    padding: 10px 30px;
+    font-size: 1.125rem;
+  }
+}
 
 @media (max-width: 375px) {
   .oferta-box {
@@ -118,16 +124,10 @@
   .oferta-nova span:last-child {
     font-size: 2rem;
   }
-  .btn2 {
-    padding: 10px 30px;
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 320px) {
   .oferta-nova {
     flex-wrap: wrap;
   }
-
-
 }
